@@ -1,0 +1,20 @@
+{
+  "name": "messaging-app-backend",
+  "version": "1.0.0",
+  "description": "Messaging app backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nabendu Biswas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "nodemon": "^2.0.7",
+    "pusher": "^5.0.0"
+  }
+}
